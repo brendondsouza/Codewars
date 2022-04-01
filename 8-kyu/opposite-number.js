@@ -1,26 +1,20 @@
 //////////////////////////////////////////
-// Powers of 2
+// Opposite number
 //////////////////////////////////////////
 
 
 // URL
-// https://www.codewars.com/kata/57a083a57cb1f31db7000028
+// https://www.codewars.com/kata/56dec885c54a926dcd001095
 
 
 // INSTRUCTIONS
-// Complete the function that takes a non-negative integer n as input, and returns a list of all the powers of 2 with the exponent ranging from 0 to n ( inclusive ).
+// Very simple, given an integer or a floating-point number, find its opposite.
 
 // Examples 
-//n = 0  ==> [1]        # [2^0]
-//n = 1  ==> [1, 2]     # [2^0, 2^1]
-//n = 2  ==> [1, 2, 4]  # [2^0, 2^1, 2^2]
-
-function powersOfTwo(n){
-  let pow=[];
-  for( let i = 0; i <=n; i++){
-    pow[i] = 2**i;
+//1: -1
+//14: -14
+//-34: 34
+function opposite(number) {
+  return number * -1
+ 
   }
- return pow;
-}
-
-powersOfTwo(1);
