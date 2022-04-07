@@ -21,6 +21,17 @@ function digital_root(n) {
  
   return sum < 10? sum: digital_root(sum)
 }
+//another solution
+
+function digital_root(n) {
+  return n===0?0:n%9==0?9:n%9
+}
+
+//another solution
+
+function digital_root(n) {
+  return (n-1)%9+1
+}
 
 // clever solution
 

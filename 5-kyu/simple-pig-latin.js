@@ -20,3 +20,23 @@ function pigIt(str){
   return str.split(' ').map( item => item !== '?' && item !== '!'? `${item.slice(1)}${item.slice(0,1)}ay`: item).join(' ')
 
 }
+
+//another solution 
+
+function pigIt(str){
+ 
+  let arr = str.split(' ')
+  return arr.map( item => item !== '?' && item !== '!'? `${item.slice(1)}${item.slice(0,1)}ay`: item).join(' ')
+
+}
+
+
+//another solution
+
+function pigIt(str){
+ 
+  let arr = str.split(' ')
+  let final = arr.map( item => item !== '?' && item !== '!'? `${item.slice(1)}${item.slice(0,1)}ay`: item).join(' ')
+
+  return final
+}
