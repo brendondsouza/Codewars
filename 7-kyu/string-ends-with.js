@@ -1,5 +1,5 @@
 /* TITLE
-
+String ends with?
 
 URL
 
@@ -11,3 +11,6 @@ EXAMPLES
 
 
 */
+function solution(str, ending){
+  return str.endsWith(ending)
+ }
