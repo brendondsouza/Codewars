@@ -1,5 +1,5 @@
 /* TITLE
-
+!a == a ?!
 
 URL
 
@@ -11,3 +11,4 @@ EXAMPLES
 
 
 */
+const a = ' '
