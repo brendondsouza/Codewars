@@ -22,6 +22,5 @@ function squareDigits(num){
   let final =""
   for(let i = 0; i < test.length; i++){
     final += test[i]*test[i];
-    
   } return Number(final);
 } 
