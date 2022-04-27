@@ -29,5 +29,4 @@ function XO(str) {
     else if(word[i] === 'o')
       o++
   } return x == o ? true: false
-
 }
