@@ -1,5 +1,5 @@
 /* TITLE
-
+One Line Task: Remove Zeros
 
 URL
 
@@ -11,3 +11,4 @@ EXAMPLES
 
 
 */
+removeZeros=a=>eval('['+/[1-9].*[1-9]/.exec(a)+']')
