@@ -1,5 +1,6 @@
 /* TITLE
-
+u
+Regular Ball Super Ball
 
 URL
 
@@ -11,3 +12,6 @@ EXAMPLES
 
 
 */
+var Ball = function(ballType = 'regular') {
+  return this.ballType = ballType
+  };
