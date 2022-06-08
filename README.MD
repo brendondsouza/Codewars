@@ -22,13 +22,13 @@ You can visit my [profile](https://www.codewars.com/users/goa2usa) to view my co
 
 ![My Codewarrior Profile Badge](https://www.codewars.com/users/goa2usa/badges/large)
 
-<!-- Total Completed Kata: 443
+Total Completed Kata: 443
   * 8kyu Completed: 309  
   * 7kyu Completed: 73 
   * 6kyu Completed: 34  
   * 5kyu Completed: 8   
   * 4kyu Completed: 2     
-  * Beta Completed: 17 -->
+  * Beta Completed: 17
 
 ### Thanks for checking these out!
 
